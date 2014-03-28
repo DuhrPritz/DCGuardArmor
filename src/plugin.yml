@@ -1,0 +1,20 @@
+name: DCGuardArmor
+version: 1
+description: Guards cannot alter their armor and drop a different type upon deather.
+author: DuhrPritz
+main: com.duhrpcraft.dev.GuardArmor
+permissions:
+  GuardArmor.remove:
+    description: stops players from removing armor.
+    default: false
+  GuardArmor.trainee:
+    description: Controls what trainee guards drop.
+    default: false 
+  GuardArmor.guard:
+    description: Controls what regular guards drop.
+  GuardArmor.senior:
+    description: Controls what senior guards drop.
+    default: false
+  GuardArmor.regulator:
+    description: Controls what regulators drop.
+    default: false
